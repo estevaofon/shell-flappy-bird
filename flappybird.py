@@ -86,6 +86,7 @@ def main(stdscr):
         w.clear()
         w.addstr(sh//2, sw//2, "Game Over!")
         w.addstr(sh//2 + 1, sw//2, f"Final Score: {score}")
+        w.addstr(sh//2 + 2, sw//2, "Press 'q' to quit")
         w.refresh()
 
         key = w.getch()

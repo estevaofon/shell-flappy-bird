@@ -1,6 +1,6 @@
 ## :space_invader: About
 
-This is a game that uses the Python `curses` library to create a console-based implementation of the game "Flappy Bird." In the game, the player controls a bird represented by the character "^" and must navigate it through a series of gaps in pipes represented by the character "|". The game uses random generation to create pipes, and the score increases every time a pipe is passed. The game ends when the bird collides with a pipe or hits the top or bottom of the screen. The user can control the bird's movement with the spacebar, and can quit the game by pressing the 'q' key.
+This code is a simple game in Python using the curses library. The game involves a bird that the user controls, and pipes that the bird must avoid or else the game ends. The screen size is set based on the maximum size of the terminal window the user is using. The pipes are generated randomly and move across the screen from right to left. Users can make the bird move upwards by pressing the space bar. The score is displayed at the top of the screen, and the game ends if the bird collides with the pipes or goes out of bounds. Finally, the game over message is displayed and the user can end the game by pressing the 'q' key.
 
 ## :wrench: Requirements
 
@@ -11,9 +11,9 @@ pip install -r requirements.txt
 ```
 ## :runner:  Usage
 
-, run the following command in the terminal:
+, you would run the code in the terminal by typing the following command:
 
-python .\flapbird.py
+python .\flappybird.py
 
 ## :raising_hand: Contribution
 
